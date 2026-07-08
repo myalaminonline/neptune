@@ -1,0 +1,20 @@
+.blog {
+    background-color: rgb(166, 234, 234);
+    width: 400px;
+    margin: 50px;
+    box-shadow: 20px 20px 50px black;
+    /* box-shadow: -10px -10px 50px black; */
+}
+
+#header {
+    background-color: chartreuse;
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: left top;
+    height: 300px;
+}
+
+#header h1{
+    text-align: center;
+}

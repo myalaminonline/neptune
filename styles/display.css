@@ -1,0 +1,20 @@
+article {
+    background-color: blueviolet;
+}
+
+h2 {
+    text-align: center;
+}
+
+#second-article {
+    /* display: none; */
+    visibility: hidden;
+}
+
+span {
+    color: chocolate;
+    /* display: block;
+    height: 50px;
+    width: 150px; */
+    border: 2px solid red;
+}

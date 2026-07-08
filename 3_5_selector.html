@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Selectors</title>
+    <style>
+        /* tag selector */
+        p {
+            color: blueviolet;
+        }
+
+        article {
+            color: lightblue;
+        }
+
+        /* class selector */
+        .red {
+            color: red;
+        }
+
+        .bold {
+            font-weight: 800;
+        }
+
+        .green {
+            color: green;
+        }
+
+        .green.bold {
+            font-size: 1.5rem;
+        }
+
+
+        /* id select */
+        #idName {
+            color: blue;
+        }
+
+        /* advanced selectors */
+        ol,
+        ul,
+        .special {
+            background-color: lightblue;
+        }
+
+        /* article p {
+            background-color: salmon;
+        } */
+
+        article > p {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic expedita deserunt quam dolores nemo quasi distinctio
+        explicabo saepe repudiandae illum!</p>
+    <h2>Heading</h2>
+    <h2 class="special">Heading</h2>
+    <h2>Heading</h2>
+    <h2>Heading</h2>
+    <h2>Heading</h2>
+    <article>
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet</p>
+        <p>Lorem ipsum dolor sit amet</p>
+    </article>
+    <article>
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet</p>
+        <p>Lorem ipsum dolor sit amet</p>
+        <div>
+            <p>This is a div element</p>
+            <p>This is a div element</p>
+            <p>This is a div element</p>
+        </div>
+    </article>
+    <ol>
+        <li>Item 1</li>
+        <li class="red bold">Item 2</li>
+        <li class="red">Item 3</li>
+        <li class="bold">Item 4</li>
+        <li>Item 5</li>
+    </ol>
+    <ul>
+        <li>Item 1</li>
+        <li class="green bold">Item 2</li>
+        <li class="green">Item 3</li>
+        <li class="bold">Item 4</li>
+        <li>Item 5</li>
+    </ul>
+</body>
+
+</html>

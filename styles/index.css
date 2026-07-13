@@ -73,6 +73,10 @@ img {
     background-color: white;
 }
 
+.nav-logo a {
+    text-decoration: none;
+}
+
 .nav-logo-h2 {
     font-size: 36px;
     font-weight: 800;

@@ -96,47 +96,51 @@ img {
 
 /* hero style */
 .hero-root {
-    background-color: #FFF8F3;
+    background-color: red;
+    
 }
 
 .hero-parent {
-    background-color: #FFF8F3;
+    background-color: green;
+
 }
 
 .hero-group {
-    background-color: #FFF8F3;
+    background-color: blue;
+    /* background-image: url("../images/conf2026-banner.jpg"); */
+    background-image: linear-gradient(to top right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../images/conf2026-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
     align-items: center;
+    text-align: center;
+    color: white;
 }
 
-.hero-left {
-    background-color: #FFF8F3;
+.hero-text{
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.hero-left-p-1 {
-    font-size: 36px;
-    font-weight: 600;
-    color: #474747;
+.hero-text h2{
+    margin: 20px 0;
+    padding: 0;
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
 }
 
-.hero-left-h2 {
-    font-size: 72px;
-    font-weight: 800;
-    color: #181818;
-}
-
-.hero-left-p-2 {
-    margin: 10px 0 0 0;
+.hero-text p{
+    margin: 20px 0;
+    padding: 0 100px;
     font-size: 16px;
     font-weight: 400;
-    color: #757575;
+    color: white;
 }
 
-.hero-left-button {
-    margin: 30px 0 0 0;
-}
-
-.hero-right {
-    background-color: #FFF8F3;
+.hero-button {
+    margin: 200px 0 0 0;
 }
 
 

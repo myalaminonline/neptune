@@ -313,7 +313,7 @@ img {
     color: #333333;
 }
 
-.price-bottom-card li::marker{
+.price-bottom-card li::marker {
     color: #2563eb;
 }
 
@@ -828,20 +828,44 @@ textarea {
 
 /* footer style */
 .footer-root {
-    background-color: white;
+    background-color: #0d1b2a;
     margin: 100px 0 0 0;
 }
 
 .footer-parent {
-    background-color: white;
+    background-color: #0d1b2a;
 }
 
 .footer-group {
-    background-color: white;
+    background-color: #0d1b2a;
+    padding: 20px 0 0 0;
 }
 
-.footer-copyright {
-    background-color: white;
-    margin: 50px 0;
+.footer-left {
+    background-color: #0d1b2a;
+}
+
+.footer-right {
+    background-color: #0d1b2a;
+}
+
+.footer-right-icon-awesome {
+    background-color: #0d1b2a;
+}
+
+.footer-right-icon-awesome span {
+    font-size: 20px;
+    color: white;
+}
+
+.footer-bottom p{
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 600;
     text-align: center;
+}
+
+.footer-bottom a{
+    text-decoration: none;
+    color: white;   
 }

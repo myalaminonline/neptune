@@ -218,6 +218,94 @@ img {
 
 
 
+/* price style */
+.price-root {
+    background-color: white;
+    margin-top: 100px;
+}
+
+.price-parent {
+    background-color: white;
+}
+
+.price-group {
+    background-color: white;
+}
+
+.price-top {
+    background-color: white;
+    padding: 0 200px;
+    text-align: center;
+}
+
+.price-top h2 {
+    background-color: white;
+    padding: 20px 0;
+    font-size: 36px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.price-top p {
+    background-color: white;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575
+}
+
+.price-bottom {
+    background-color: white;
+    padding: 20px 0;
+}
+
+.price-bottom-card {
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #181818;
+    border-radius: 5px;
+}
+
+.price-bottom-card-solid{
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #181818;
+    border-radius: 5px;
+
+}
+
+.price-bottom-card-outline{
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #181818;
+    border-radius: 5px;
+
+}
+
+.what-i-do-bottom-card img {
+    padding: 5px;
+}
+
+.what-i-do-bottom-card h2 {
+    background-color: white;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.what-i-do-bottom-card p {
+    background-color: white;
+    padding: 10px 50px 0px 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+}
+
+
+
+
+
 /* about me style */
 .about-me-root {
     background-color: white;

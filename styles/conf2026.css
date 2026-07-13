@@ -52,6 +52,17 @@ img {
     cursor: pointer;
 }
 
+.normal {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #0d1b2a;
+    border-radius: 5px;
+    border: 1px solid #0d1b2a;
+    cursor: pointer;
+}
+
 
 
 /* nav style */
@@ -97,7 +108,7 @@ img {
 /* hero style */
 .hero-root {
     background-color: red;
-    
+
 }
 
 .hero-parent {
@@ -118,12 +129,12 @@ img {
     color: white;
 }
 
-.hero-text{
+.hero-text {
     max-width: 800px;
     margin: 0 auto;
 }
 
-.hero-text h2{
+.hero-text h2 {
     margin: 20px 0;
     padding: 0;
     font-size: 60px;
@@ -131,7 +142,7 @@ img {
     color: white;
 }
 
-.hero-text p{
+.hero-text p {
     margin: 20px 0;
     padding: 0 100px;
     font-size: 16px;
@@ -147,7 +158,7 @@ img {
 /* speaker style */
 .speaker-root {
     background-color: white;
-    margin-top: 100px;
+    margin: 100px 0 0 0;
 }
 
 .speaker-parent {
@@ -178,7 +189,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.speaker-bottom-card{
+.speaker-bottom-card {
     background-color: white;
     padding: 0;
     border: 1px solid #e5e7eb;
@@ -186,12 +197,12 @@ img {
 
 }
 
-.speaker-bottom-card-img{
+.speaker-bottom-card-img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
-.speaker-bottom-card-p-1{
+.speaker-bottom-card-p-1 {
     background-color: white;
     padding: 2px 20px;
     font-size: 14px;
@@ -199,7 +210,7 @@ img {
     color: #2563eb;
 }
 
-.speaker-bottom-card-p-2{
+.speaker-bottom-card-p-2 {
     background-color: white;
     padding: 2px 20px;
     font-size: 16px;
@@ -207,7 +218,7 @@ img {
     color: #0d1b2a;
 }
 
-.speaker-bottom-card-p-3{
+.speaker-bottom-card-p-3 {
     background-color: white;
     margin: 0 0 20px 0;
     padding: 2px 20px;
@@ -221,7 +232,7 @@ img {
 /* price style */
 .price-root {
     background-color: white;
-    margin-top: 100px;
+    margin: 100px 0 0 0;
 }
 
 .price-parent {
@@ -234,75 +245,126 @@ img {
 
 .price-top {
     background-color: white;
-    padding: 0 200px;
+    padding: 0;
     text-align: center;
 }
 
 .price-top h2 {
     background-color: white;
-    padding: 20px 0;
+    padding: 0;
     font-size: 36px;
     font-weight: 700;
-    color: #181818;
+    color: #0d1b2a;
 }
 
 .price-top p {
     background-color: white;
-    padding: 0;
-    font-size: 16px;
+    padding: 10px 0;
+    font-size: 14px;
     font-weight: 400;
-    color: #757575
+    color: #575757;
 }
 
 .price-bottom {
     background-color: white;
-    padding: 20px 0;
+    padding: 20px 100px;
 }
 
 .price-bottom-card {
     background-color: white;
-    padding: 30px;
-    border: 1px solid #181818;
-    border-radius: 5px;
+    align-items: center;
 }
 
-.price-bottom-card-solid{
+.price-bottom-card p {
     background-color: white;
-    padding: 30px;
-    border: 1px solid #181818;
-    border-radius: 5px;
-
-}
-
-.price-bottom-card-outline{
-    background-color: white;
-    padding: 30px;
-    border: 1px solid #181818;
-    border-radius: 5px;
-
-}
-
-.what-i-do-bottom-card img {
-    padding: 5px;
-}
-
-.what-i-do-bottom-card h2 {
-    background-color: white;
-    padding: 10px 0;
-    font-size: 16px;
+    padding: 0 0 2px 0;
+    font-size: 12px;
     font-weight: 700;
-    color: #181818;
+    color: #888888;
 }
 
-.what-i-do-bottom-card p {
+.price-bottom-card h2 {
     background-color: white;
-    padding: 10px 50px 0px 0;
-    font-size: 14px;
-    font-weight: 400;
-    color: #757575;
+    padding: 0 0 2px 0;
+    font-size: 36px;
+    font-weight: 700;
+    color: #0d1b2a;
 }
 
+.price-bottom-card h3 {
+    background-color: white;
+    padding: 0 0 20px 0;
+    font-size: 10px;
+    font-weight: 400;
+    color: #888888;
+}
 
+.price-bottom-card ul {
+    background-color: white;
+    margin: 10px 0 0 10px;
+    padding: 0;
+}
+
+.price-bottom-card li {
+    background-color: white;
+    padding: 0 0 10px 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.price-bottom-card li::marker{
+    color: #2563eb;
+}
+
+.price-bottom-card button {
+    margin: 20px 0 0 0;
+    width: 100%;
+}
+
+.price-bottom-card-1 {
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.price-bottom-card-2 {
+    background-color: #0d1b2a;
+    padding: 30px;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    flex: 1
+}
+
+.price-bottom-card-2 p {
+    background-color: #0d1b2a;
+    color: #93c5fd;
+}
+
+.price-bottom-card-2 h2 {
+    background-color: #0d1b2a;
+    color: white;
+}
+
+.price-bottom-card-2 h3 {
+    background-color: #0d1b2a;
+    color: white;
+}
+
+.price-bottom-card-2 li {
+    background-color: #0d1b2a;
+    color: white;
+}
+
+.price-bottom-card-3 {
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    flex: 1
+}
 
 
 

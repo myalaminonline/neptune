@@ -367,464 +367,393 @@ img {
 }
 
 
+/* schedule style */
+.schedule-root {
+    background-color: #f8fafc; /* A very light, professional blue/gray to separate it from the white sections */
+    padding: 100px 0;
+    margin: 100px 0 0 0;
+}
 
-/* about me style */
-.about-me-root {
+.schedule-top {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.schedule-top h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #0d1b2a;
+    margin-bottom: 10px;
+}
+
+.schedule-top p {
+    font-size: 16px;
+    color: #575757;
+}
+
+.schedule-bottom {
+    max-width: 900px;
+    margin: 0 auto; /* Centers the schedule list in the container */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between each schedule item */
+}
+
+/* The individual schedule row */
+.schedule-item {
     background-color: white;
-    margin-top: 100px;
-}
-
-.about-me-parent {
-    background-color: #FFF8F3;
-}
-
-.about-me-group {
-    background-color: #FFF8F3;
-    padding: 100px 200px;
+    border: 1px solid #e5e7eb;
     border-radius: 10px;
-    text-align: center;
-}
-
-.about-me-top {
-    background-color: #FFF8F3;
-}
-
-.about-me-top h2 {
-    padding: 20px 0;
-    font-size: 36px;
-    font-weight: 700;
-    color: #181818;
-}
-
-.about-me-top p {
-    padding: 20px 0;
-    font-size: 16px;
-    font-weight: 400;
-    color: #757575;
-}
-
-.about-me-bottom {
-    background-color: #FFF8F3;
-    padding: 20px;
-}
-
-.about-me-bottom-card {
-    background-color: #FFF8F3;
-    padding: 20px 0;
-}
-
-.about-me-bottom-card p {
-    font-size: 16px;
-    font-weight: 400;
-    color: #757575;
-}
-
-.about-me-bottom-card h2 {
-    font-size: 16px;
-    font-weight: 700;
-    color: #474747;
-}
-
-
-
-/* what i do style */
-.what-i-do-root {
-    background-color: white;
-    margin-top: 100px;
-}
-
-.what-i-do-parent {
-    background-color: white;
-}
-
-.what-i-do-group {
-    background-color: white;
-}
-
-.what-i-do-top {
-    background-color: white;
-    padding: 0 200px;
-    text-align: center;
-}
-
-.what-i-do-top h2 {
-    background-color: white;
-    padding: 20px 0;
-    font-size: 36px;
-    font-weight: 700;
-    color: #181818;
-}
-
-.what-i-do-top p {
-    background-color: white;
-    padding: 20px 0;
-    font-size: 16px;
-    font-weight: 400;
-    color: #757575
-}
-
-.what-i-do-bottom {
-    background-color: white;
-    padding: 20px 0;
-}
-
-.what-i-do-bottom-card {
-    background-color: white;
     padding: 30px;
-    border: 1px solid #181818;
-    border-radius: 5px;
+    align-items: flex-start; /* Aligns items to the top rather than stretching */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth hover animation */
 }
 
-.what-i-do-bottom-card img {
-    padding: 5px;
+/* Professional Hover Effect */
+.schedule-item:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    transform: translateY(-2px); /* Lifts the card slightly */
+    border-color: #93c5fd;
 }
 
-.what-i-do-bottom-card h2 {
-    background-color: white;
-    padding: 10px 0;
-    font-size: 16px;
+.schedule-time {
+    flex: 0 0 200px; /* Forces the time column to stay exactly 200px wide */
+    border-right: 2px solid #e5e7eb; /* Creates a timeline separator line */
+    padding-right: 20px;
+}
+
+.schedule-time h3 {
+    font-size: 20px;
+    color: #1d4ed8;
     font-weight: 700;
-    color: #181818;
 }
 
-.what-i-do-bottom-card p {
-    background-color: white;
-    padding: 10px 50px 0px 0;
+.schedule-time p {
     font-size: 14px;
-    font-weight: 400;
-    color: #757575;
+    color: #888888;
+    margin-top: 5px;
+}
+
+.schedule-details {
+    flex: 1; /* Takes up the remaining space */
+    padding-left: 10px;
+}
+
+.schedule-details h4 {
+    font-size: 22px;
+    color: #0d1b2a;
+    margin-bottom: 8px;
+}
+
+.speaker-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2563eb;
+    margin-bottom: 12px;
+}
+
+.session-desc {
+    font-size: 15px;
+    color: #575757;
+    line-height: 1.6;
 }
 
 
 
-/* summary style */
-.summary-root {
-    background-color: white;
+/* tracks style */
+.tracks-root {
+    background-color: #0d1b2a; /* Dark background to match footer/pricing card */
+    padding: 100px 0; /* Padding inside the section for breathing room */
     margin: 100px 0 0 0;
 }
 
-.summary-parent {
-    background-color: white;
-}
-
-.summary-header {
-    background-color: white;
-}
-
-.summary-header-h2 {
-    background-color: white;
-    margin: 50px 0;
-    font-size: 36px;
-    font-weight: 700;
-    color: #181818;
+.tracks-top {
     text-align: center;
+    margin-bottom: 60px;
 }
 
-.summary-group {
-    background-color: white;
-}
-
-.summary-left {
-    background-color: white;
-    flex: 1;
-}
-
-.summary-left-title {
-    background-color: white;
-}
-
-.summary-left-title-h2 {
-    background-color: white;
-    margin: 20px 0;
+.tracks-top h2 {
     font-size: 36px;
-    font-weight: 400;
-    color: #181818;
+    font-weight: 700;
+    color: #ffffff; /* White text for dark background */
 }
 
-.summary-left-card {
-    background-color: white;
-}
-
-.summary-left-card-h2 {
-    background-color: white;
-    margin: 20px 0 0 0;
+.tracks-top p {
     font-size: 16px;
-    font-weight: 800;
-    color: #474747;
+    color: #93c5fd; /* A soft light blue that perfectly complements the dark theme */
+    margin-top: 15px;
 }
 
-.summary-left-card-p-1 {
-    background-color: white;
-    margin: 10px 0 0 0;
-    font-size: 14px;
-    font-weight: 600;
-    color: #474747;
+.tracks-bottom {
+    grid-template-columns: repeat(4, 1fr); /* Forces your existing .grid to be 4 equal columns */
 }
 
-.summary-left-card-p-2 {
-    background-color: white;
-    margin: 10px 200px 20px 0;
-    font-size: 14px;
-    font-weight: 400;
-    color: #757575;
+/* The Track Cards */
+.track-card {
+    background-color: #13273e; /* Just slightly lighter than the background */
+    border: 1px solid #1e3a5f;
+    border-radius: 10px;
+    padding: 40px 30px;
+    text-align: center;
+    transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
-/* .summary-right {
-    background-color: white;
-    flex: 1;
+/* The Hover Animation */
+.track-card:hover {
+    transform: translateY(-10px); /* Lifts the card up 10 pixels */
+    border-color: #2563eb; /* Changes border to primary blue */
 }
 
-.summary-right-title {
-    background-color: white;
+.track-icon {
+    font-size: 45px;
+    color: #2563eb; 
+    margin-bottom: 25px;
 }
 
-.summary-right-title-h2 {
-    background-color: white;
-    margin: 20px 0;
-    font-size: 30px;
-    font-weight: 700;
-    color: #474747;
-}
-
-.summary-right-card {
-    background-color: white;
-}
-
-.summary-right-card-h2 {
-    background-color: white;
-    margin: 20px 0 0 0;
-    font-size: 25px;
-    font-weight: 700;
-    color: #474747;
-}
-
-.summary-right-card-p-1 {
-    background-color: white;
-    margin: 10px 0 0 0;
+.track-card h3 {
+    color: #ffffff;
     font-size: 20px;
-    font-weight: 600;
-    color: #757575;
+    font-weight: 700;
+    margin-bottom: 15px;
 }
 
-.summary-right-card-p-2 {
-    background-color: white;
-    margin: 10px 200px 20px 0;
-    font-size: 16px;
-    font-weight: 400;
-    color: #757575;
-} */
-
-.summary-right {
-    background-color: white;
-    flex: 1;
-}
-
-.summary-right-title {
-    background-color: white;
-}
-
-.summary-right-title-h2 {
-    background-color: white;
-    margin: 20px 0;
-    font-size: 36px;
-    font-weight: 400;
-    color: #181818;
-}
-
-.summary-right-card {
-    background-color: white;
-}
-
-.summary-right-card-h2 {
-    background-color: white;
-    margin: 20px 0 0 0;
-    font-size: 16px;
-    font-weight: 800;
-    color: #474747;
-}
-
-.summary-right-card-p-1 {
-    background-color: white;
-    margin: 10px 0 0 0;
+.track-card p {
+    color: #cbd5e1; /* A highly readable light slate/gray */
     font-size: 14px;
-    font-weight: 600;
-    color: #474747;
-}
-
-.summary-right-card-p-2 {
-    background-color: white;
-    margin: 10px 200px 20px 0;
-    font-size: 14px;
-    font-weight: 400;
-    color: #757575;
-}
-
-.summary-footer {
-    background-color: white;
-    margin: 50px 0;
-    text-align: center;
+    line-height: 1.6;
 }
 
 
 
-/* work style */
-.work-root {
-    background-color: white;
-    margin-top: 100px;
+/* =========================================
+   VENUE SECTION STYLE
+========================================= */
+
+.venue-root {
+    background-color: white; /* Bright white to contrast the dark Tracks section */
+    padding: 100px 0;
+    margin: 100px 0 0 0;
 }
 
-.work-parent {
-    background-color: white;
+/* Modifying the flex behavior specifically for the venue group */
+.venue-group {
+    align-items: center; /* Centers the text vertically with the image */
+    gap: 60px; /* A larger gap than your standard 20px for a premium feel */
 }
 
-.work-group {
-    background-color: white;
+/* --- Left Side: Info --- */
+.venue-info {
+    flex: 1; /* Takes up exactly 50% of the flex container */
 }
 
-.work-top {
-    background-color: white;
-    padding: 0 200px;
-    text-align: center;
+.venue-top {
+    margin-bottom: 40px;
 }
 
-.work-top h2 {
-    background-color: white;
-    padding: 20px 0;
+.venue-top h2 {
     font-size: 36px;
     font-weight: 700;
-    color: #181818;
+    color: #0d1b2a;
+    margin-bottom: 10px;
 }
 
-.work-bottom {
-    background-color: white;
-    padding: 20px 0;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 100px;
-    grid-template-areas:
-        "two one four"
-        "two one four"
-        "two one five"
-        "three one five"
-        "three one five"
-        "three six five"
-        "three six five"
-        "three six five";
+.venue-top p {
+    font-size: 16px;
+    color: #575757;
 }
 
-.work-bottom img {
+.venue-details h3 {
+    font-size: 28px;
+    color: #1d4ed8; /* Primary brand blue for emphasis */
+    margin-bottom: 15px;
+}
+
+.venue-desc {
+    font-size: 16px;
+    color: #575757;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Clean, modern list styling */
+.venue-list {
+    list-style: none; /* Removes the default bullets */
+    margin-bottom: 40px;
+}
+
+.venue-list li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.venue-list li i {
+    color: #2563eb;
+    font-size: 20px;
+    width: 25px; /* Ensures the icons act as a perfect column even if they are different widths */
+    text-align: center;
+}
+
+.venue-buttons {
+    justify-content: flex-start; /* Overrides the 'space-between' in your global .flex class */
+    gap: 15px;
+}
+
+/* --- Right Side: Image --- */
+.venue-image {
+    flex: 1; /* Takes up exactly 50% of the flex container */
+    border-radius: 12px;
+    overflow: hidden; /* Ensures the image doesn't break outside the rounded corners */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1); /* A soft, realistic drop shadow */
+}
+
+.venue-image img {
+    width: 100%;
     height: 100%;
-    width: 100%;
     object-fit: cover;
+    display: block; /* Removes the tiny default gap under images in HTML */
+    transition: transform 0.5s ease; /* Prepares the image for the hover effect */
 }
 
-.work-bottom-image-1 {
-    grid-area: one;
-}
-
-.work-bottom-image-2 {
-    grid-area: two;
-}
-
-.work-bottom-image-3 {
-    grid-area: three;
-}
-
-.work-bottom-image-4 {
-    grid-area: four;
-}
-
-.work-bottom-image-5 {
-    grid-area: five;
-}
-
-.work-bottom-image-6 {
-    grid-area: six;
+/* Elegant, slow zoom effect on hover */
+.venue-image:hover img {
+    transform: scale(1.05);
 }
 
 
 
-/* contact style */
-.contact-root {
-    background-color: #FFF8F3;
+/* =========================================
+   BLOG / NEWS SECTION STYLE
+========================================= */
+
+.blog-root {
+    background-color: #ffffff; /* Pure white for maximum readability */
+    padding: 100px 0;
     margin: 100px 0 0 0;
 }
 
-.contact-parent {
-    background-color: #FFF8F3;
+.blog-top {
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-.contact-group {
-    background-color: #FFF8F3;
-}
-
-.contact-left {
-    background-color: #FFF8F3;
-    margin: 50px 0;
-    flex: 1;
-}
-
-.contact-left h2 {
-    background-color: #FFF8F3;
-    margin: 20px 0 0 0;
+.blog-top h2 {
     font-size: 36px;
     font-weight: 700;
-    color: #181818;
+    color: #0d1b2a;
+    margin-bottom: 10px;
 }
 
-.contact-left p {
-    background-color: #FFF8F3;
-    margin: 20px 0 0 0;
+.blog-top p {
     font-size: 16px;
-    font-weight: 400;
-    color: #474747;
+    color: #575757;
 }
 
-.contact-left-icon {
-    background-color: #FFF8F3;
-    margin: 20px 0 0 0;
+.blog-bottom {
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
 }
 
-.contact-left-icon-awesome {
-    background-color: #FFF8F3;
-    margin: 20px 0 0 0;
-}
-
-.contact-left-icon-awesome span {
-    font-size: 20px;
-    color: #FD6E0A;
-}
-
-.contact-right {
-    background-color: #FFF8F3;
-    margin: 50px 0;
-    flex: 1;
-}
-
-.contact-right h2 {
-    background-color: #FFF8F3;
-    margin: 20px 0 0 0;
-    font-size: 36px;
-    font-weight: 700;
-    color: #181818;
-}
-
-.contact-right form input,
-textarea {
+/* The Article Card */
+.blog-card {
     background-color: white;
-    margin: 20px 0 0 0;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: 400;
-    color: #757575;
-    display: block;
-    width: 100%;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    overflow: hidden; /* Crucial: Keeps the zooming image inside the rounded corners */
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    display: flex;
+    flex-direction: column; /* Ensures content stacks vertically */
 }
 
-.contact-right form button {
-    margin: 50px 0 0 0;
+.blog-card:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+    transform: translateY(-5px);
 }
+
+/* Image Container & Hover Effect */
+.blog-image {
+    height: 220px; /* Fixed height so all cards align perfectly */
+    overflow: hidden;
+}
+
+.blog-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease; /* Smooth, slow zoom */
+}
+
+/* When the card is hovered, zoom the image inside it */
+.blog-card:hover .blog-image img {
+    transform: scale(1.08);
+}
+
+/* Text Content Area */
+.blog-content {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Pushes the "Read Article" link to the bottom if text lengths differ */
+}
+
+.blog-meta {
+    justify-content: flex-start; /* Overrides global flex space-between */
+    gap: 15px;
+    margin-bottom: 12px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.blog-category {
+    color: #2563eb;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.blog-date {
+    color: #888888;
+}
+
+.blog-content h3 {
+    font-size: 22px;
+    color: #0d1b2a;
+    margin-bottom: 12px;
+    line-height: 1.3;
+}
+
+.blog-content p {
+    font-size: 15px;
+    color: #575757;
+    margin-bottom: 25px;
+    line-height: 1.6;
+    flex: 1; /* Ensures buttons align at the bottom */
+}
+
+/* The Link */
+.blog-link {
+    color: #1d4ed8;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px; /* Space between text and arrow */
+    transition: color 0.3s ease;
+}
+
+.blog-link:hover {
+    color: #0d1b2a;
+}
+
+.blog-view-all {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
 
 /* footer style */
 .footer-root {

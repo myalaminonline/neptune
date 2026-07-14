@@ -93,6 +93,16 @@ img {
     color: #474747;
 }
 
+.nav-highlights {
+    background-color: white;
+}
+
+.nav-highlights-p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #474747;
+}
+
 .nav-menu {
     background-color: white;
 }
